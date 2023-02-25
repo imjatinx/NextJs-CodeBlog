@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo{
+    font-size: 55px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu .active{
+    margin-left: 0;
+}
+
+.menu li{
+    margin-left: 45px;
+    color: crimson;
+}
+
+.menu li:hover{
+    color: black;
+    text-decoration: underline;
+}
